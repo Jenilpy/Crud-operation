@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curd Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JAVASCRIPT CRUD OPERATION APP</h1>
+    </header>
+    <main>
+        <section>
+            <main class="main">
+                <div class="crud-form">
+                    <div>
+                        <h2>ADD Student Data</h2>
+                        <form action="" class="border" id="Addform">
+                            <div class="form-group">
+                                <label for="studentName">Student Name</label>
+                                <input type="text" placeholder="StudentName" id="AddstudentName" name="AddstudentName" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="studentAge">Student Age</label>
+                                <input type="number" placeholder="StudentAge" id="AddstudentAge" name="AddstudentAge" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="studentEmail">Student E-mail</label>
+                                <input type="email" placeholder="StudentEmail" id="AddstudentEmail" name="AddstudentEmail" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="studentPhone">Student Phone Number</label>
+                                <input type="tel" placeholder="StudentPhone" id="AddstudentNumber" name="AddstudentNumber" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="StudentAddress">Student Address</label>
+                                <textarea name="AddstudentAddress" id="AddstudentAddress" rows="6" cols="22" value=""></textarea>
+                            </div>
+                            <input type="submit" class="buttons">
+                        </form>
+                    </div>
+                    <div>
+                        <h2>Edit Student Data</h2>
+                        <form action="" class="border" id="Editform">
+                            <div class="form-group">
+                                <label for="confirmStudentName">Student Name</label>
+                                <input type="text" placeholder="StudentName" id="ConfirmStudentName" name="confirmStudentName" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmStudentAge">Student Age</label>
+                                <input type="number" placeholder="StudentAge" id="ConfirmStudentAge" name="confirmStudentAge" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmStudentEmail">Student E-mail</label>
+                                <input type="email" placeholder="StudentEmail" id="ConfirmStudentEmail" name="confirmStudentEmail" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmStudentPhone">Student Phone Number</label>
+                                <input type="tel" placeholder="StudentPhone" id="ConfirmStudentNumber" name="confirmStudentPhone" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="StudentAddress">Student Address</label>
+                                <textarea name="confirmStudentAddress" id="ConfirmStudentAddress" rows="6" cols="22" value=""></textarea>
+                            </div>
+                            <input type="submit" class="buttons">
+                        </form>
+                    </div>
+                    <div>
+                        <h2>View Student Information</h2>
+                        <div class="studentTable"></div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
